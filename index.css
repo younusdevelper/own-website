@@ -1,0 +1,399 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url(./bg.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+ /* Start TopBar */
+ 
+.topbar{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.topbar p{
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.topbar p:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+/* End TopBar */
+
+/* ==================================================================== */
+
+
+/* Start NavBar */
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.284);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo img{
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-menu a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.nav-menu a:hover{
+    /* background-color: gray; */
+    color: white;
+    transition: 0.5s;
+}
+/* End NavBar */
+
+
+/* ============================================================= */
+
+.content{
+    /* border: 2px solid white; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-text{
+    width: 600px;
+    /* border: 2px solid white; */
+}
+.content-text h2{
+
+    color: white;
+    margin: 0;
+    font-size: 40px;
+}
+.content-text p{
+    color: white;
+    margin: 15px;     
+}
+.content-text button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 120px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+
+.content-text button:hover{
+    background-color: gray;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+/* =======================START SECTION - 2 ================================== */
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: rgb(243, 243, 243);
+}
+.sec-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 3px rgb(196, 196, 196);
+}
+
+.sec-box h2{
+color: darkred;
+margin: 0;
+font-weight: bold;
+font-size: 30px;
+}
+
+.sec-box p{
+    color: gray;
+    
+}
+.sec-box button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 120px;
+    border-radius: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+.sec-box:hover{
+    background-color: rgba(211, 211, 211, 0.952);
+    transition: 0.5s;
+}
+.sec-box p:hover{
+    color: black;
+}
+
+
+.sec-box button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black ;
+    transition: 0.5s;
+}
+/* ======================= END SECTION - 2 ================================== */
+
+  video{
+    width: 100%;
+    height: auto; 
+  }
+
+
+.row-1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  .row-1 img{
+    width: 250px;
+    height: auto;
+    margin: 10px; 
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .row-1 img:hover{
+    width: 230px;
+    height: auto;
+    transition: 0.5s;
+  }
+
+
+/* ===================Start Footer====================== */
+
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.151);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.logo-content{
+    /* border: 1px solid black; */
+    width: 250px;
+}
+
+
+
+.logo-content img{
+    width: 230px;
+}
+
+.logo-content a{
+    text-decoration: none;
+  color: black;
+}
+.logo-content button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 120px;
+    border-radius: 50px;
+    margin: 5px;
+    margin-top: 15px;
+
+}
+.logo-content button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black ;
+    transition: 0.5s;
+}
+
+
+.pages{
+    /* border: 1px solid black; */
+    width:fit-content ;
+}
+ 
+.pages h2{
+    margin: 0;
+}
+.pages li{   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.pages a{
+    text-decoration: none;
+    color: black;
+    /* text-transform: uppercase; */
+    
+}
+
+
+.contact{
+    /* border: 1px solid black; */
+    width:fit-content ;
+}
+
+.contact h2{
+    margin: 0;
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+
+
+.Support{
+    /* border: 1px solid black; */
+    width:fit-content ;
+}
+
+.Support h2{
+    margin: 0; 
+}
+
+.Support li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+
+}
+
+.Support a{
+    text-decoration: none;
+    color: black;
+    /* text-transform: uppercase; */
+    
+}
+
+
+/* ===================End Footer====================== */
+
+
+
+
+.bottombar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottombar p{
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+}
+
+.bottombar p:hover{
+    color:  orange;
+    transition: 0.5s;
+}
+/* ==================================================================== */
+
+.social-icons{
+    background-color: orange;
+    padding: 5px;
+    text-align: center;
+    animation: change 3s linear infinite;
+}
+
+@keyframes change {
+    0% {background-color: orange;}
+    25% {background-color: orangered;}
+    50% {background-color: purple;}
+    75% {background-color: yellow;}
+    100% {background-color: orange;}
+
+}
+
+
+
+.social-icons i{
+    font-size: 35px;
+    margin: 10px;
+    color: black;
+    /* animation: mahnoor 2s linear infinite; */
+}
+
+/* @keyframes mahnoor {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(90deg);}
+} */
+
+
+
+.social-icons i:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+.main-box{
+    width: 50%;
+    position: relative;
+}
+
+.main-box img{
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.main-content{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.main-box:hover img {
+    opacity: 0.3;
+  }
+  
+  .main-box:hover .main-content {
+    opacity: 1;
+  }
+
+

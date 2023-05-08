@@ -1,0 +1,92 @@
+.about-container{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url(./about.jpg);
+    background-position:center;
+    background-size:cover;
+  }
+
+  
+  
+  /* ============================ */
+
+  .about-content{
+    /* border: 2px solid white; */
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+  /* ============================ */
+
+
+  .about-1-main{
+    /* border: 2px solid black; */
+    display: flex;
+    
+  }
+
+  .about-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: rgb(241, 241, 241);
+    
+  }
+
+
+.about-2 img{
+  width: 500px;
+  height: 400px;
+  margin-right: 10px;
+  
+  
+}
+
+.about-3{
+  width: 500px;
+  height:400px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(102, 102, 102);
+  box-shadow: 2px 2px 5px gray;
+  color: white;
+
+}
+
+.about-3 h1{
+  font-family: sans-serif;
+  color: white;
+  font-size: 60px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.about-3 button{
+  background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    border-radius: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.about-3 button:hover{
+  color: white;
+  background-color: black;
+  transition: 0.2s;
+}
+
+
+
+
+
+
